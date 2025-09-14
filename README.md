@@ -35,6 +35,7 @@ Learning and experimenting with chatbot development using different approaches u
 
 ---
 ## Folder Structure
+```text
 chatbot-development/
 │
 ├── plain-frontend-and-api/       # HTML, CSS, JS + API
@@ -42,7 +43,7 @@ chatbot-development/
 ├── springboot-secure-chatbot/    # Spring Boot backend + secure API
 └── README.md
 
-
+```
 - Practiced API integration in frontend.  
 - Learned the basics of React and component-based development.  
 - Understood how to secure API keys using a backend (Spring Boot). 
