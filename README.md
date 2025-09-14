@@ -38,9 +38,10 @@ Learning and experimenting with chatbot development using different approaches u
 chatbot-development/
 │
 ├── plain-frontend-and-api/       # HTML, CSS, JS + API
-├── react-based-chatbot/          # React chatbot
-├── springboot-secure-chatbot/    # Spring Boot + secure backend
+├── react-based-version/          # React chatbot
+├── springboot-secure-chatbot/    # Spring Boot backend + secure API
 └── README.md
+
 
 - Practiced API integration in frontend.  
 - Learned the basics of React and component-based development.  
