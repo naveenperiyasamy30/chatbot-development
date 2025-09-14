@@ -4,9 +4,9 @@ This project is a simple chatbot built using **HTML, CSS, and JS** (Tailwind CSS
 
 
 <p align="center">
+ <img width="30%" alt="Screenshot (41)" src="https://github.com/user-attachments/assets/a1898836-5b51-4b6d-a4e3-4685254e9cf0" />
  <img alt="Screenshot (36)" src="https://github.com/user-attachments/assets/4bd376e2-b102-4ae5-93ef-d19f3cc57a4f" width="30%"/>
-<img width="30%" alt="Screenshot (37)" src="https://github.com/user-attachments/assets/0e5e4249-9d12-422c-aefb-c11a448c22af" />
-<img width="30%" alt="Screenshot (41)" src="https://github.com/user-attachments/assets/a1898836-5b51-4b6d-a4e3-4685254e9cf0" />
+ <img width="30%" alt="Screenshot (37)" src="https://github.com/user-attachments/assets/0e5e4249-9d12-422c-aefb-c11a448c22af" />
 </p>
 
 
