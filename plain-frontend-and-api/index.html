@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+      <script src="script.js"></script> 
+</head>
+<body class="flex items-center justify-center min-h-screen p-8">
+    <div class="chat-container w-full max-w-sm h-[650px] flex flex-col">
+        <div class="chat-header p-4 text-center text-lg font-bold">
+            Chatbot
+        </div>
+        <div id="chat-window" class="flex-1 overflow-y-auto p-4 flex flex-col space-y-4">
+            <!-- Initial bot message -->
+            <div class="flex">
+                <div class="message-box bot-message px-4 py-2 max-w-[80%]">
+                    Hello! How can I help you today?
+                </div>
+            </div>
+        </div>
+        <div class="p-4 bg-transparent flex items-end space-x-2 border-t-2 border-primary-color">
+            <textarea id="user-input" placeholder="Type a message..." class="flex-1"></textarea>
+            <button id="send-btn" class="font-bold">
+                Send
+            </button>
+        </div>
+    </div>
+
+</body>
+</html>
