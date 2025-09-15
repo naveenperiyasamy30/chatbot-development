@@ -9,11 +9,13 @@ It focuses on building **reusable components, managing state, and handling API c
 
 ## Preview
 
+<img width="1920" height="1080" alt="Screenshot (48)" src="https://github.com/user-attachments/assets/5d4276ae-7f2f-4698-be1d-9e976ace6080" />
+
 
 
 ## Features
 
-- Built with **React** using **functional components** and **hooks** (`useState`, `useEffect`).  
+- Built with **React** using **functional components** and **hooks** (`useState`, `useEffect`,`useRef`).  
 - Modular and reusable components: `ChatWindow`, `Message`, `InputBox`, etc.  
 - Calls **DeepSeek API** for chatbot responses.  
 - Learned **state management, props, event handling, and API integration** in React.
