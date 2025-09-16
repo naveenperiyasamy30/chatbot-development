@@ -1,0 +1,120 @@
+  /* Define a custom color and font to match the new reference image */
+        :root {
+            --bg-color: #E6E0D4;
+            --container-bg: #EAE6DF;
+            --primary-color: #1A1A1A;
+            --accent-color: #FFC107;
+            --header-bg: #1A1A1A;
+            --input-bg: #D9D2C1;
+            --user-message-bg: #FFC107;
+            --bot-message-bg: #D9D2C1;
+            --bot-message-text: #1A1A1A;
+            --primary-text: #1A1A1A;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            color: var(--primary-text);
+        }
+
+        /* Container with a modern, rounded design */
+        .chat-container {
+             border: 2px solid var(--primary-color);
+  border-radius: 1.5rem;
+  overflow: hidden;
+  background-color: var(--container-bg);
+  box-shadow: 10px 10px 0 0 var(--primary-color);
+  display: flex;      /* must have */
+  flex-direction: column;
+  height: 650px;      /* ensure height is fixed */
+        }
+        
+        /* Header styling */
+        .chat-header {
+            background-color: var(--header-bg);
+            color: var(--bg-color);
+            border-bottom: 2px solid var(--primary-color);
+        }
+
+        /* Message box styles */
+        .message-box {
+            padding: 0.5rem 1rem;
+            border-radius: 1rem; /* 16px */
+            border: 1px solid transparent; /* default */
+            /* Ensure text wraps inside the div */
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+
+        /* User message with sharp edges on top */
+        .user-message {
+            background-color: var(--user-message-bg);
+            color: var(--primary-color);
+            border: 1px solid var(--primary-color);
+            border-radius: 1rem 1rem 0.5rem 1rem;
+        }
+
+        /* Bot message with a distinct style */
+        .bot-message {
+            background-color: var(--bot-message-bg);
+            color: var(--bot-message-text);
+            border: 1px solid var(--primary-color);
+            border-radius: 1rem 1rem 1rem 0.5rem;
+        }
+
+        /* Input and button styles */
+        #user-input, #send-btn {
+            border: 2px solid var(--primary-color);
+            border-radius: 0.75rem; /* 12px */
+            font-weight: 500;
+        }
+
+        #user-input {
+            background-color: var(--input-bg);
+            color: var(--primary-text);
+            padding: 0.5rem 1rem;
+            flex-grow: 1;
+            resize: none; /* Disable manual resize handle */
+            overflow: hidden; /* Hide scrollbar */
+            min-height: 2.75rem; /* Match button height */
+            /* overflow-y: auto; */
+        }
+
+        
+        #user-input:hover {
+          background-color: #d9d2c1;
+            box-shadow: 4px 4px 0 0 var(--primary-color); /* Updated shadow to match container */
+            outline: none;
+            
+        }
+        #send-btn {
+            background-color: var(--accent-color);
+            color: var(--primary-color);
+            padding: 1.2rem 1.1rem;
+            transition: all 0.1s ease-in-out;
+        }
+        #send-btn:hover {
+            background-color: #ff9800; /* A slightly darker orange on hover */
+            box-shadow: 4px 4px 0 0 var(--primary-color); /* Updated shadow to match container */
+        }
+        #send-btn:active {
+            transform: translateY(2px);
+        }
+
+        /* Loader with the new theme colors */
+        .loader {
+            width: 15px;
+            height: 15px;
+            border: 2px solid var(--primary-color);
+            border-bottom-color: transparent;
+            border-radius: 50%;
+            display: inline-block;
+            box-sizing: border-box;
+            animation: rotation 1s linear infinite;
+        }
+
+        @keyframes rotation {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
